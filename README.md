@@ -80,27 +80,21 @@ The Power BI dashboard provides:
 ### 1. Python Analysis
 ```bash
 pip install pandas numpy matplotlib seaborn sqlalchemy
--- Open the Jupyter Notebook and run all cells:
-
-text
-Copy code
+---
+-Open the Jupyter Notebook and run all cells:
 customer_shopping_behavior_analysis.ipynb
-2. SQL Analysis
+### 2. SQL Analysis
 Load the cleaned dataset into PostgreSQL / MySQL / SQL Server.
 
-Execute queries from:
-
-text
-Copy code
+-Execute queries from:
 customer_behavior_sql_queries.sql
-3. Power BI
-Open the .pbix file in Power BI Desktop.
+###3. Power BI
+-Open the .pbix file in Power BI Desktop.
 
-Refresh the data connection if required.
+-Refresh the data connection if required.
 
-Project Structure
-pgsql
-Copy code
+###Project Structure
+
 Customer-Shopping-Behavior-Analysis/
 │── data/
 │   └── customer_shopping_behavior.csv
@@ -110,6 +104,4 @@ Customer-Shopping-Behavior-Analysis/
 │   └── customer_behavior_sql_queries.sql
 │── powerbi/
 │   └── customer_behavior_dashboard.pbix
-│── reports/
-│   └── presentation_gamma.pptx
-│── README.md
+
