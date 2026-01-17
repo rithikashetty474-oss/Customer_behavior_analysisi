@@ -76,14 +76,14 @@ The Power BI dashboard provides:
 ---
 
 ## How to Run the Project
-
-### 1. Python Analysis
+1.**Python Analysis**
 ```bash
 pip install pandas numpy matplotlib seaborn sqlalchemy
----
+
 -Open the Jupyter Notebook and run all cells:
 customer_shopping_behavior_analysis.ipynb
-### 2. SQL Analysis
+
+2.**SQL Analysis**
 Load the cleaned dataset into PostgreSQL / MySQL / SQL Server.
 
 -Execute queries from:
