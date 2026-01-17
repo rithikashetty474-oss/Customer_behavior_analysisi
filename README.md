@@ -76,32 +76,53 @@ The Power BI dashboard provides:
 ---
 
 ## How to Run the Project
-1.**Python Analysis**
+
+### 1. Python Analysis
+Install the required Python libraries:
 ```bash
 pip install pandas numpy matplotlib seaborn sqlalchemy
+Open the Jupyter Notebook and run all cells:
 
--Open the Jupyter Notebook and run all cells:
+
 customer_shopping_behavior_analysis.ipynb
+This step covers data loading, exploratory data analysis (EDA), and data cleaning.
 
-2.**SQL Analysis**
-Load the cleaned dataset into PostgreSQL / MySQL / SQL Server.
+2. SQL Analysis
+Load the cleaned dataset into a relational database such as:
 
--Execute queries from:
+PostgreSQL
+
+MySQL
+
+SQL Server
+
+Execute the SQL queries provided in:
+
+
 customer_behavior_sql_queries.sql
-###3. Power BI
--Open the .pbix file in Power BI Desktop.
+These queries answer key business questions related to customer behavior, revenue, and product performance.
 
--Refresh the data connection if required.
+3. Power BI Dashboard
+Open the Power BI file in Power BI Desktop:
 
-###Project Structure
+
+customer_behavior_dashboard.pbix
+Refresh the data connection if required to load the latest data.
+---
+### Project Structure
 
 Customer-Shopping-Behavior-Analysis/
 │── data/
 │   └── customer_shopping_behavior.csv
+│
 │── notebooks/
 │   └── customer_shopping_behavior_analysis.ipynb
+│
 │── sql/
 │   └── customer_behavior_sql_queries.sql
+│
 │── powerbi/
 │   └── customer_behavior_dashboard.pbix
+│
+│── README.md
 
