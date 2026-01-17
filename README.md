@@ -24,9 +24,6 @@ The project demonstrates an end-to-end **Data Analytics workflow** using Python,
 - **SQL**: Business analysis queries  
   - PostgreSQL / MySQL / SQL Server
 - **Power BI**: Interactive dashboard creation
-- **Gamma**: Report and presentation (PPT) creation
-- **GitHub**: Version control and project documentation
-
 ---
 
 ## Project Workflow
@@ -56,9 +53,6 @@ The project demonstrates an end-to-end **Data Analytics workflow** using Python,
      - Product performance
      - Discount impact
 
-6. **Reporting & Presentation**
-   - Created a business report summarizing insights.
-   - Designed a presentation (PPT) using Gamma for stakeholders.
 
 ---
 
@@ -86,7 +80,7 @@ The Power BI dashboard provides:
 ### 1. Python Analysis
 ```bash
 pip install pandas numpy matplotlib seaborn sqlalchemy
-Open the Jupyter Notebook and run all cells:
+-- Open the Jupyter Notebook and run all cells:
 
 text
 Copy code
